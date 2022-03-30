@@ -19,3 +19,11 @@ span{
     display: flex;
     justify-content: space-around;
 }
+input{
+    border: none;
+    background: inherit;
+    width: 10%;
+}
+input::placeholder{
+    color: white;
+}
