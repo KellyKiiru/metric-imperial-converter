@@ -10,6 +10,9 @@
 span{
     background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
     height: 20rem;
+    color: white;
+    padding-top: 20px;
+
 }
 .one, .two{
     width:100%;
