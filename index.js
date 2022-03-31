@@ -4,7 +4,7 @@ let displayInput2 = document.getElementById("input2")
 
 let displayInput3 = document.getElementById("input3")
 
-let displayInput4 = document.getElementById("inpu4")
+//////
 
 let metersleft = document.getElementById("metersDisplayLeft")
 
@@ -56,7 +56,61 @@ let poundsLeft2 = document.getElementById("poundsDisplayLeft2")
 
 let poundsRight2 = document.getElementById("poundsDisplayRight2")
 
-let demo = document.getElementById('demo')
+//////
+
+let metersleft3 = document.getElementById("metersDisplayLeft3")
+
+let metersRight3 = document.getElementById("metersDisplayRight3")
+
+let feetLeft3 = document.getElementById("feetDisplayLeft3")
+
+let feetRight3 = document.getElementById("feetDisplayRight3")
+
+let litresLeft3 = document.getElementById("litresDisplayLeft3")
+
+let litresRight3 = document.getElementById("litresDisplayRight3")
+
+let gallonsLeft3 = document.getElementById("gallonsDisplayLeft3")
+
+let gallonsRight3 = document.getElementById("gallonsDisplayRight3")
+
+let kilosLeft3 = document.getElementById("kilosDisplayLeft3")
+
+let kilosRight3 = document.getElementById("kilosDisplayRight3")
+
+let poundsLeft3 = document.getElementById("poundsDisplayLeft3")
+
+let poundsRight3 = document.getElementById("poundsDisplayRight3")
+
+///////
+
+let displayInput4 = document.getElementById("input4")
+
+let metersleft4 = document.getElementById("metersDisplayLeft4")
+
+let metersRight4 = document.getElementById("metersDisplayRight4")
+
+let feetLeft4 = document.getElementById("feetDisplayLeft4")
+
+let feetRight4 = document.getElementById("feetDisplayRight4")
+
+let litresLeft4 = document.getElementById("litresDisplayLeft4")
+
+let litresRight4 = document.getElementById("litresDisplayRight4")
+
+let gallonsLeft4 = document.getElementById("gallonsDisplayLeft4")
+
+let gallonsRight4 = document.getElementById("gallonsDisplayRight4")
+
+let kilosLeft4 = document.getElementById("kilosDisplayLeft4")
+
+let kilosRight4 = document.getElementById("kilosDisplayRight4")
+
+let poundsLeft4 = document.getElementById("poundsDisplayLeft4")
+
+let poundsRight4 = document.getElementById("poundsDisplayRight4")
+
+/////
 
 let metersConversion = 3.281
 
@@ -163,6 +217,98 @@ function functionTwo(){
 
     kilosRight2.textContent = sum12
 
+
+    ///////
+
+}
+
+function functionThree(){
+
+    metersleft3.textContent = parseInt(displayInput3.value)
+
+    let sum13 = parseInt(displayInput3.value) * metersConversion
+
+    feetLeft3.textContent = sum13
+
+    feetRight3.textContent = parseInt(displayInput3.value)
+
+    let sum14 = parseInt(displayInput3.value) * feetConversion
+
+    metersRight3.textContent = sum14
+
+    ///////
+
+    litresLeft3.textContent = parseInt(displayInput3.value)
+
+    let sum15 = parseInt(displayInput3.value) * litresConversion
+
+    gallonsLeft3.textContent = sum15
+
+    gallonsRight3.textContent = parseInt(displayInput3.value)
+
+    let sum16 = parseInt(displayInput3.value) * gallonsConversion
+
+    litresRight3.textContent = sum16
+
+    ///////
+
+    kilosLeft3.textContent = parseInt(displayInput3.value)
+
+    let sum17 = parseInt(displayInput3.value) * kilogramsConversion
+
+    poundsLeft3.textContent = sum17
+
+    poundsRight3.textContent = parseInt(displayInput3.value)
+
+    let sum18 = parseInt(displayInput3.value) * poundsConversion
+
+    kilosRight3.textContent = sum18
+
+
+    ///////
+}
+
+function functionFour(){
+
+    metersleft4.textContent = parseInt(displayInput4.value)
+
+    let sum19 = parseInt(displayInput4.value) * metersConversion
+
+    feetLeft4.textContent = sum19
+
+    feetRight4.textContent = parseInt(displayInput4.value)
+
+    let sum20 = parseInt(displayInput4.value) * feetConversion
+
+    metersRight4.textContent = sum20
+
+    ///////
+
+    kilosLeft4.textContent = parseInt(displayInput4.value)
+
+    let sum23 = parseInt(displayInput4.value) * kilogramsConversion
+
+    poundsLeft4.textContent = sum23
+
+    poundsRight4.textContent = parseInt(displayInput4.value)
+
+    let sum24 = parseInt(displayInput4.value) * poundsConversion
+
+    kilosRight4.textContent = sum24
+
+    ///////
+
+    litresLeft4.textContent = parseInt(displayInput4.value)
+
+    let sum21 = parseInt(displayInput4.value) * litresConversion
+
+    gallonsLeft4.textContent = sum21
+
+    gallonsRight4.textContent = parseInt(displayInput4.value)
+
+    let sum22 = parseInt(displayInput4.value) * gallonsConversion
+
+    litresRight4.textContent = sum22
 
     ///////
 
