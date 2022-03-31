@@ -284,20 +284,6 @@ function functionFour(){
 
     ///////
 
-    kilosLeft4.textContent = parseInt(displayInput4.value)
-
-    let sum23 = parseInt(displayInput4.value) * kilogramsConversion
-
-    poundsLeft4.textContent = sum23
-
-    poundsRight4.textContent = parseInt(displayInput4.value)
-
-    let sum24 = parseInt(displayInput4.value) * poundsConversion
-
-    kilosRight4.textContent = sum24
-
-    ///////
-
     litresLeft4.textContent = parseInt(displayInput4.value)
 
     let sum21 = parseInt(displayInput4.value) * litresConversion
@@ -309,6 +295,20 @@ function functionFour(){
     let sum22 = parseInt(displayInput4.value) * gallonsConversion
 
     litresRight4.textContent = sum22
+
+    ///////
+
+    kilosLeft4.textContent = parseInt(displayInput4.value)
+
+    let sum23 = parseInt(displayInput4.value) * kilogramsConversion
+
+    poundsLeft4.textContent = sum23
+
+    poundsRight4.textContent = parseInt(displayInput4.value)
+
+    let sum24 = parseInt(displayInput4.value) * poundsConversion
+
+    kilosRight4.textContent = sum24
 
     ///////
 
