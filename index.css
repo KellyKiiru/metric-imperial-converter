@@ -3,8 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-span{
+body{
+    background-image: url("https://ak.picdn.net/shutterstock/videos/10534295/thumb/1.jpg");
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+#uno{
     background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
     height: 20rem;
     color: white;
@@ -12,6 +17,10 @@ span{
     border-radius: 5px;
     margin-top: 10px;
 
+}
+span{
+    font-weight: bolder;
+    font-size:20px ;
 }
 .one, .two{
     width:100%;
@@ -28,9 +37,6 @@ input{
 }
 input::placeholder{
     color: white;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 .card{
     border-radius: 10px;
@@ -41,9 +47,6 @@ input::placeholder{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* background-color: black; */
-    /* padding: 5px; */
-    /* width: fit-content; */
 }
 button{
     border: 0.5px solid;

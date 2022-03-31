@@ -18,7 +18,7 @@
     <div class="container d-flex align-items-center justify-content-center">
         <div class="row one ">
             <div class="card" style="width: 35rem;">
-                <span>
+                <span id="uno">
                     <p style="
                     font-size: 22px;
                     font-weight:bolder;
@@ -27,7 +27,6 @@
                     <div class="displaythings"
                         style="text-align: center;font: inter; font-weight:bolder; font-size: 98px;">
                         <input id="input" type="number" placeholder="0">
-                        <p id="demo"></p>
                         <button onclick="functionOne()"> Convert </button>
                     </div>
 
@@ -64,12 +63,13 @@
                 </div>
             </div>
             <div class="card" style="width: 35rem;">
-                <span>
+                <span id="uno">
                     <p style="text-align: center; font: inter; font-weight:bolder;; font-size: 22px;">Metric/Imperial
                         Unit Conversion</p>
-                    <div style="text-align: center;font: inter; font-weight:bolder; font-size: 98px;" id="input2"><input
-                            type="text" placeholder="0">
-                        <button hidden onclick="functionOne()"> Convert </button>
+                    <div class="displaythings"
+                        style="text-align: center;font: inter; font-weight:bolder; font-size: 98px;"">
+                        <input id="input2" type="text" placeholder="0">
+                        <button onclick="functionTwo()"> Convert </button>
                     </div>
                 </span>
                 <div class="card-body" id="card-body
@@ -78,16 +78,17 @@
                         (Meters/Feet)</h5>
                     <div id="length" class="card-text">
                         <p>
-                            <span id="metersDisplayLeft"></span> meters = <span id="feetDisplayLeft"></span> feet |
-                            <span id="feetDisplayRight"></span> feet = <span id="metersDisplayRight"></span> meters
+                            <span id="metersDisplayLeft2"></span> meters = <span id="feetDisplayLeft2"></span> feet |
+                            <span id="feetDisplayRight2"></span> feet = <span id="metersDisplayRight2"></span> meters
                         </p>
                     </div>
                     <h5 style="font-size: 14px;font-weight: 600px; font: inter" class="card-title">Volume
                         (Litres/Gallons)</h5>
                     <div id="volume" class="card-text">
                         <p>
-                            <span id="litresDisplayLeft"></span> litres = <span id="gallonsDisplayLeft"></span> gallons
-                            | <span id="gallonsDisplayRight"></span> gallons = <span id="litresDisplayRight"></span>
+                            <span id="litresDisplayLeft2"></span> litres = <span id="gallonsDisplayLeft2"></span>
+                            gallons
+                            | <span id="gallonsDisplayRight2"></span> gallons = <span id="litresDisplayRight2"></span>
                             litres
                         </p>
                     </div>
@@ -95,8 +96,8 @@
                         Mass(Kilograms/Pounds)</h5>
                     <div id="mass" class="card-text">
                         <p>
-                            <span id="kilosDisplayLeft"></span> kilos = <span id="poundsDisplayLeft"></span> pounds |
-                            <span id="poundsDisplayRight"></span> pounds = <span id="kilosDisplayRight"></span> kilos
+                            <span id="kilosDisplayLeft2"></span> kilos = <span id="poundsDisplayLeft2"></span> pounds |
+                            <span id="poundsDisplayRight2"></span> pounds = <span id="kilosDisplayRight2"></span> kilos
                         </p>
                     </div>
 
@@ -108,11 +109,14 @@
     <div class="container d-flex align-items-center justify-content-center">
         <div class="row two">
             <div class="card" style="width: 35rem;">
-                <span>
+                <span id="uno">
                     <p style="text-align: center; font: inter; font-weight:bolder;; font-size: 22px;">Metric/Imperial
                         Unit Conversion</p>
-                    <div style="text-align: center;font: inter; font-weight:bolder; font-size: 98px;" id="input3"><input
-                            type="text" placeholder="0"></div>
+                    <div class="displaythings"
+                        style="text-align: center;font: inter; font-weight:bolder; font-size: 98px;" id="input3">
+                        <input id="input2" type="text" placeholder="0">
+                        <button onclick="functionThree()"> Convert </button>
+                    </div>
                 </span>
                 <div class="card-body" id="card-body
                 " style=" text-align: center">
@@ -145,11 +149,14 @@
                 </div>
             </div>
             <div class="card" style="width: 35rem;">
-                <span>
+                <span id="uno">
                     <p style="text-align: center; font: inter; font-weight:bolder;; font-size: 22px;">Metric/Imperial
                         Unit Conversion</p>
-                    <div style="text-align: center;font: inter; font-weight:bolder; font-size: 98px;" id="input4"><input
-                            type="text" placeholder="0"></div>
+                    <div class="displaythings"
+                        style="text-align: center;font: inter; font-weight:bolder; font-size: 98px;" id="input4">
+                        <input id="input2" type="text" placeholder="0">
+                        <button onclick="functionFour()"> Convert </button>
+                    </div>
                 </span>
                 <div class="card-body" id="card-body
                 " style=" text-align: center">
@@ -178,7 +185,8 @@
                             <p>
                                 <span id="kilosDisplayLeft"></span> kilos = <span id="poundsDisplayLeft"></span> pounds
                                 |
-                                <span id="poundsDisplayRight"></span> pounds = <span id="kilosDisplayRight"></span> kilos
+                                <span id="poundsDisplayRight"></span> pounds = <span id="kilosDisplayRight"></span>
+                                kilos
                             </p>
                         </div>
                     </div>
