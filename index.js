@@ -124,9 +124,9 @@ let kilogramsConversion = 2.205
 
 let poundsConversion = 0.454
 
+tarehe = new Date()
 
-// let input = parseInt(displayInput.value)
-
+document.getElementById("year").textContent ="__" + tarehe.getFullYear()+ " "
 
 function functionOne() {
 
@@ -134,13 +134,13 @@ function functionOne() {
 
     let sum1 = parseInt(displayInput.value) * metersConversion
 
-    feetLeft.textContent = sum1
+    feetLeft.textContent = sum1.toFixed(3)
 
     feetRight.textContent = parseInt(displayInput.value)
 
     let sum2 = parseInt(displayInput.value) * feetConversion
 
-    metersRight.textContent = sum2
+    metersRight.textContent = sum2.toFixed(3)
 
     ///////
 
@@ -148,13 +148,13 @@ function functionOne() {
 
     let sum3 = parseInt(displayInput.value) * litresConversion
 
-    gallonsLeft.textContent = sum3
+    gallonsLeft.textContent = sum3.toFixed(3)
 
     gallonsRight.textContent = parseInt(displayInput.value)
 
     let sum4 = parseInt(displayInput.value) * gallonsConversion
 
-    litresRight.textContent = sum4
+    litresRight.textContent = sum4.toFixed(3)
 
     ///////
 
@@ -162,13 +162,13 @@ function functionOne() {
 
     let sum5 = parseInt(displayInput.value) * kilogramsConversion
 
-    poundsLeft.textContent = sum5
+    poundsLeft.textContent = sum5.toFixed(3)
 
     poundsRight.textContent = parseInt(displayInput.value)
 
     let sum6 = parseInt(displayInput.value) * poundsConversion
 
-    kilosRight.textContent = sum6
+    kilosRight.textContent = sum6.toFixed(3)
 
 
     ///////
@@ -181,13 +181,14 @@ function functionTwo(){
 
     let sum7 = parseInt(displayInput2.value) * metersConversion
 
-    feetLeft2.textContent = sum7
+    feetLeft2.textContent = sum7.toFixed(3)
 
     feetRight2.textContent = parseInt(displayInput2.value)
 
     let sum8 = parseInt(displayInput2.value) * feetConversion
 
-    metersRight2.textContent = sum8
+    metersRight2.textContent = sum8.toFixed(3)
+
 
     ///////
 
@@ -195,13 +196,13 @@ function functionTwo(){
 
     let sum9 = parseInt(displayInput2.value) * litresConversion
 
-    gallonsLeft2.textContent = sum9
+    gallonsLeft2.textContent = sum9.toFixed(3)
 
     gallonsRight2.textContent = parseInt(displayInput2.value)
 
     let sum10 = parseInt(displayInput2.value) * gallonsConversion
 
-    litresRight2.textContent = sum10
+    litresRight2.textContent = sum10.toFixed(3)
 
     ///////
 
@@ -209,13 +210,13 @@ function functionTwo(){
 
     let sum11 = parseInt(displayInput2.value) * kilogramsConversion
 
-    poundsLeft2.textContent = sum11
+    poundsLeft2.textContent = sum11.toFixed(3)
 
     poundsRight2.textContent = parseInt(displayInput2.value)
 
     let sum12 = parseInt(displayInput2.value) * poundsConversion
 
-    kilosRight2.textContent = sum12
+    kilosRight2.textContent = sum12.toFixed(3)
 
 
     ///////
@@ -228,13 +229,13 @@ function functionThree(){
 
     let sum13 = parseInt(displayInput3.value) * metersConversion
 
-    feetLeft3.textContent = sum13
+    feetLeft3.textContent = sum13.toFixed(3)
 
     feetRight3.textContent = parseInt(displayInput3.value)
 
     let sum14 = parseInt(displayInput3.value) * feetConversion
 
-    metersRight3.textContent = sum14
+    metersRight3.textContent = sum14.toFixed(3)
 
     ///////
 
@@ -242,13 +243,13 @@ function functionThree(){
 
     let sum15 = parseInt(displayInput3.value) * litresConversion
 
-    gallonsLeft3.textContent = sum15
+    gallonsLeft3.textContent = sum15.toFixed(3)
 
     gallonsRight3.textContent = parseInt(displayInput3.value)
 
     let sum16 = parseInt(displayInput3.value) * gallonsConversion
 
-    litresRight3.textContent = sum16
+    litresRight3.textContent = sum16.toFixed(3)
 
     ///////
 
@@ -256,13 +257,13 @@ function functionThree(){
 
     let sum17 = parseInt(displayInput3.value) * kilogramsConversion
 
-    poundsLeft3.textContent = sum17
+    poundsLeft3.textContent = sum17.toFixed(3)
 
     poundsRight3.textContent = parseInt(displayInput3.value)
 
     let sum18 = parseInt(displayInput3.value) * poundsConversion
 
-    kilosRight3.textContent = sum18
+    kilosRight3.textContent = sum18.toFixed(3)
 
 
     ///////
@@ -274,13 +275,13 @@ function functionFour(){
 
     let sum19 = parseInt(displayInput4.value) * metersConversion
 
-    feetLeft4.textContent = sum19
+    feetLeft4.textContent = sum19.toFixed(3)
 
     feetRight4.textContent = parseInt(displayInput4.value)
 
     let sum20 = parseInt(displayInput4.value) * feetConversion
 
-    metersRight4.textContent = sum20
+    metersRight4.textContent = sum20.toFixed(3)
 
     ///////
 
@@ -288,13 +289,13 @@ function functionFour(){
 
     let sum21 = parseInt(displayInput4.value) * litresConversion
 
-    gallonsLeft4.textContent = sum21
+    gallonsLeft4.textContent = sum21.toFixed(3)
 
     gallonsRight4.textContent = parseInt(displayInput4.value)
 
     let sum22 = parseInt(displayInput4.value) * gallonsConversion
 
-    litresRight4.textContent = sum22
+    litresRight4.textContent = sum22.toFixed(3)
 
     ///////
 
@@ -302,13 +303,13 @@ function functionFour(){
 
     let sum23 = parseInt(displayInput4.value) * kilogramsConversion
 
-    poundsLeft4.textContent = sum23
+    poundsLeft4.textContent = sum23.toFixed(3)
 
     poundsRight4.textContent = parseInt(displayInput4.value)
 
     let sum24 = parseInt(displayInput4.value) * poundsConversion
 
-    kilosRight4.textContent = sum24
+    kilosRight4.textContent = sum24.toFixed(3)
 
     ///////
 
